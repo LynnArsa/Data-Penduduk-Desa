@@ -1,4 +1,10 @@
 import os, time, pandas, csv
+import pandas as pandasForSortingCSV
+
+csvData = pandasForSortingCSV.read_csv("Penduduk.csv")
+
+print("\nBefore sorting:")
+print(csvData)
 
 data = [{'NIK': 20, '   Nama': 'Lintang', '   Jenis Kelamin': 'Perempuan', '   Umur': 20,'   Alamat': 'Jember','   No HP': '081'},
          {'NIK': 21, '   Nama': 'Dika', '   Jenis Kelamin': 'Laki-laki', '   Umur': 21, '   Alamat': 'Jember','   No HP': '082'},
