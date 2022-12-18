@@ -1,6 +1,6 @@
 import pandas as pd
 
-df = pd.read_csv("Data-Penduduk-Desa/DataPenduduk.csv")
+df = pd.read_csv("DataPenduduk.csv")
 
 # df.sort_values(["Nama"], axis=0, ascending=[False], inplace=True)
 
