@@ -1,30 +1,30 @@
 import os,time,pandas,csv
 
-data = [{'NIK': 20, '   Nama': 'Lintang', '   Jenis Kelamin': 'Perempuan', '   Umur': 20,'   Alamat': 'Jember','   No HP': '081'},
-         {'NIK': 21, '   Nama': 'Dika', '   Jenis Kelamin': 'Laki-laki', '   Umur': 21, '   Alamat': 'Jember','   No HP': '082'},
-         {'NIK': 22, '   Nama': 'Nabil', '   Jenis Kelamin': 'Laki-laki', '   Umur': 17, '   Alamat': 'Situbondo','   No HP': '083'},
-         {'NIK': 23, '   Nama': 'Wahyu', '   Jenis Kelamin': 'Laki-laki', '   Umur': 23, '   Alamat': 'Banyuwangi','   No HP': '084'},
-         {'NIK': 24, '   Nama': 'Rainey', '   Jenis Kelamin': 'Perempuan', '   Umur': 21, '   Alamat': 'Surabaya','   No HP': '085'},
-         {'NIK': 25, '   Nama': 'Foxy', '   Jenis Kelamin': 'Perempuan', '   Umur': 22, '   Alamat': 'Surabaya','   No HP': '086'},
-         {'NIK': 26, '   Nama': 'Marvel', '   Jenis Kelamin': 'Laki-laki', '   Umur': 15, '   Alamat': 'Situbondo','   No HP': '087'},
-         {'NIK': 27, '   Nama': 'Naufal', '   Jenis Kelamin': 'Laki-laki', '   Umur': 19, '   Alamat': 'Sidoarjo','   No HP': '088'},
-         {'NIK': 28, '   Nama': 'Ava', '   Jenis Kelamin': 'Laki-laki', '   Umur': 18, '   Alamat': 'Semarang','   No HP': '089'},
-         {'NIK': 29, '   Nama': 'Ragnora', '   Jenis Kelamin': 'Perempuan', '   Umur': 19, '   Alamat': 'Jember','   No HP': '090'},
-         {'NIK': 30, '   Nama': 'Clause', '   Jenis Kelamin': 'Laki-laki', '   Umur': 19, '   Alamat': 'Jember','   No HP': '091'},
-         {'NIK': 31, '   Nama': 'Lucas', '   Jenis Kelamin': 'Laki-laki', '   Umur': 20, '   Alamat': 'Jember','   No HP': '092'},
-         {'NIK': 32, '   Nama': 'Charlie', '   Jenis Kelamin': 'Laki-laki', '   Umur': 30, '   Alamat': 'Jember','   No HP': '093'},
-         {'NIK': 33, '   Nama': 'Joy', '   Jenis Kelamin': 'Laki-laki', '   Umur': 35, '   Alamat': 'Jember','   No HP': '094'},
-         {'NIK': 34, '   Nama': 'Amri', '   Jenis Kelamin': 'Laki-laki', '   Umur': 40, '   Alamat': 'Jember','   No HP': '095'},
-         {'NIK': 35, '   Nama': 'Sayyid', '   Jenis Kelamin': 'Laki-laki', '   Umur': 29, '   Alamat': 'Jember','   No HP': '096'},
-         {'NIK': 36, '   Nama': 'Reo', '   Jenis Kelamin': 'Laki-laki', '   Umur': 20, '   Alamat': 'Jember','   No HP': '097'},
-         {'NIK': 37, '   Nama': 'Winter', '   Jenis Kelamin': 'Perempuan', '   Umur': 25, '   Alamat': 'Jember','   No HP': '098'},
-         {'NIK': 38, '   Nama': 'Knoby', '   Jenis Kelamin': 'Laki-laki', '   Umur': 27, '   Alamat': 'Jember','   No HP': '099'},
-         {'NIK': 39, '   Nama': 'Hector', '   Jenis Kelamin': 'Laki-laki', '   Umur': 26, '   Alamat': 'Jember','   No HP': '100'},
-         {'NIK': 40, '   Nama': 'Syri', '   Jenis Kelamin': 'Perempuan', '   Umur': 29, '   Alamat': 'Jember','   No HP': '101'},
-         {'NIK': 41, '   Nama': 'Sandpy', '   Jenis Kelamin': 'Perempuan', '   Umur': 24, '   Alamat': 'Jember','   No HP': '102'},
-         {'NIK': 42, '   Nama': 'Albi', '   Jenis Kelamin': 'Perempuan', '   Umur': 23, '   Alamat': 'Jember','   No HP': '103'},
-         {'NIK': 43, '   Nama': 'Chess', '   Jenis Kelamin': 'Perempuan', '   Umur': 18, '   Alamat': 'Jember','   No HP': '104'},
-         {'NIK': 44, '   Nama': 'Snowy', '   Jenis Kelamin': 'Perempuan', '   Umur': 31, '   Alamat': 'Jember','   No HP': '105'},
+data = [{'NIK': 3525015201880002, '   Nama': 'Lintang', '   Jenis Kelamin': 'Perempuan', '   Umur': 20,'   Alamat': 'Jember','   No HP': '081'},
+         {'NIK': 3123456789123456, '   Nama': 'Dika', '   Jenis Kelamin': 'Laki-laki', '   Umur': 21, '   Alamat': 'Jember','   No HP': '082'},
+         {'NIK': 3525016005650004, '   Nama': 'Nabil', '   Jenis Kelamin': 'Laki-laki', '   Umur': 17, '   Alamat': 'Situbondo','   No HP': '083'},
+         {'NIK': 3525015306780002, '   Nama': 'Wahyu', '   Jenis Kelamin': 'Laki-laki', '   Umur': 23, '   Alamat': 'Banyuwangi','   No HP': '084'},
+         {'NIK': 3525015306780002, '   Nama': 'Rainey', '   Jenis Kelamin': 'Perempuan', '   Umur': 21, '   Alamat': 'Surabaya','   No HP': '085'},
+         {'NIK': 3525017006620060, '   Nama': 'Foxy', '   Jenis Kelamin': 'Perempuan', '   Umur': 22, '   Alamat': 'Surabaya','   No HP': '086'},
+         {'NIK': 3525016401830001, '   Nama': 'Marvel', '   Jenis Kelamin': 'Laki-laki', '   Umur': 15, '   Alamat': 'Situbondo','   No HP': '087'},
+         {'NIK': 3314076404720003, '   Nama': 'Naufal', '   Jenis Kelamin': 'Laki-laki', '   Umur': 19, '   Alamat': 'Sidoarjo','   No HP': '088'},
+         {'NIK': 3525016401830001, '   Nama': 'Ava', '   Jenis Kelamin': 'Laki-laki', '   Umur': 18, '   Alamat': 'Semarang','   No HP': '089'},
+         {'NIK': 3525015002690001, '   Nama': 'Ragnora', '   Jenis Kelamin': 'Perempuan', '   Umur': 19, '   Alamat': 'Jember','   No HP': '090'},
+         {'NIK': 3525016011620001, '   Nama': 'Clause', '   Jenis Kelamin': 'Laki-laki', '   Umur': 19, '   Alamat': 'Jember','   No HP': '091'},
+         {'NIK': 3525013006770017, '   Nama': 'Lucas', '   Jenis Kelamin': 'Laki-laki', '   Umur': 20, '   Alamat': 'Jember','   No HP': '092'},
+         {'NIK': 3525014305710001, '   Nama': 'Charlie', '   Jenis Kelamin': 'Laki-laki', '   Umur': 30, '   Alamat': 'Jember','   No HP': '093'},
+         {'NIK': 3525011512820002, '   Nama': 'Joy', '   Jenis Kelamin': 'Laki-laki', '   Umur': 35, '   Alamat': 'Jember','   No HP': '094'},
+         {'NIK': 3525016211930001, '   Nama': 'Amri', '   Jenis Kelamin': 'Laki-laki', '   Umur': 40, '   Alamat': 'Jember','   No HP': '095'},
+         {'NIK': 3525017006520020, '   Nama': 'Sayyid', '   Jenis Kelamin': 'Laki-laki', '   Umur': 29, '   Alamat': 'Jember','   No HP': '096'},
+         {'NIK': 3525012005590001, '   Nama': 'Reo', '   Jenis Kelamin': 'Laki-laki', '   Umur': 20, '   Alamat': 'Jember','   No HP': '097'},
+         {'NIK': 3525014908920001, '   Nama': 'Winter', '   Jenis Kelamin': 'Perempuan', '   Umur': 25, '   Alamat': 'Jember','   No HP': '098'},
+         {'NIK': 3326160107400474, '   Nama': 'Knoby', '   Jenis Kelamin': 'Laki-laki', '   Umur': 27, '   Alamat': 'Jember','   No HP': '099'},
+         {'NIK': 3326161606790002, '   Nama': 'Hector', '   Jenis Kelamin': 'Laki-laki', '   Umur': 26, '   Alamat': 'Jember','   No HP': '100'},
+         {'NIK': 3326164410800003, '   Nama': 'Syri', '   Jenis Kelamin': 'Perempuan', '   Umur': 29, '   Alamat': 'Jember','   No HP': '101'},
+         {'NIK': 3326167001090001, '   Nama': 'Sandpy', '   Jenis Kelamin': 'Perempuan', '   Umur': 24, '   Alamat': 'Jember','   No HP': '102'},
+         {'NIK': 3326160706800001, '   Nama': 'Albi', '   Jenis Kelamin': 'Perempuan', '   Umur': 23, '   Alamat': 'Jember','   No HP': '103'},
+         {'NIK': 3326162610790021, '   Nama': 'Chess', '   Jenis Kelamin': 'Perempuan', '   Umur': 18, '   Alamat': 'Jember','   No HP': '104'},
+         {'NIK': 3326164107440286, '   Nama': 'Snowy', '   Jenis Kelamin': 'Perempuan', '   Umur': 31, '   Alamat': 'Jember','   No HP': '105'},
          ]
 
 def clean():
@@ -45,7 +45,7 @@ def menu():
     pw = input('Password: ')
     print('')
     time.sleep(1)
-    lihatData()if [un,pw] in user else print('\t\tUsername atau Password Salah!')
+    halamanUtama()if [un,pw] in user else print('\t\tUsername atau Password Salah!')
     print('-'*62)
     print('')
     time.sleep(1)
@@ -54,7 +54,7 @@ def menu():
     clean()
     menu()
 
-def lihatData():
+def halamanUtama():
     clean()
     print('='*62, '\n',
     '\t\t\t DATA PENDUDUK DESA', '\n'+
@@ -73,7 +73,7 @@ def lihatData():
     input('Ketik Apapun Untuk Memuat Ulang: ')
     time.sleep(1)
     clean()
-    lihatData()
+    halamanUtama()
 
 #---------------------------------------------------Filter---------------------------------------------------#
 
@@ -94,14 +94,13 @@ def dataFilter():
     user = input('Pilih Nomor: ')
     print(' ')
     time.sleep(1)
-    dataFilterNIK() if user=='1' else (dataFilterNama() if user=='2' else (dataFilterUmur() if user=='3' else (dataFilterAlamat() if user=='4' else (dataFilterNoHP() if user=='5' else (lihatData() if user=='6' else print('\t      Pilih Sesuai Nomor Yang Tersedia!'))))))
+    dataFilterNIK() if user=='1' else (dataFilterNama() if user=='2' else (dataFilterUmur() if user=='3' else (dataFilterAlamat() if user=='4' else (dataFilterNoHP() if user=='5' else (halamanUtama() if user=='6' else print('\t      Pilih Sesuai Nomor Yang Tersedia!'))))))
     print('-'*62)
     print(' ')
     time.sleep(1)
     input('Ketik Apapun Untuk Kembali Ke Laman Utama: ')
     time.sleep(1)
-    clean()
-    lihatData()
+    halamanUtama()
 
 def dataFilterNIK():
     user = input('Masukan NIK: ')
@@ -167,7 +166,7 @@ def dataSort():
     print(' ')
     user = input('Pilih Nomor: ')
     print(' ')
-    dataSortNama() if user=='1' else (dataSortUmur() if user=='2' else (dataSortAlamat() if user=='3' else (lihatData() if user=='4' else user)))
+    dataSortNama() if user=='1' else (dataSortUmur() if user=='2' else (dataSortAlamat() if user=='3' else (halamanUtama() if user=='4' else user)))
 
 def mySort(list_, func, key):
     if len(list_) < 2:
